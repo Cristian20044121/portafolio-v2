@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Francois+One&display=swap");
+
+.navbar {
+  background-image: url("https://i.pinimg.com/564x/3a/a0/b4/3aa0b4236d8fba0d0e8aa303b3e6cc2f.jpg");
+  height: 120px;
+  background-position: center;
+  filter: saturate(150%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.7);
+}
+
+.link {
+  font-family: "Francois One", sans-serif;
+}
+.link:hover {
+  text-shadow: 3px 2px 2px rgb(24, 225, 24);
+  transform: translateY(-10px);
+}
