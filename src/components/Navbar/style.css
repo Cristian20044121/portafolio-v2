@@ -14,6 +14,6 @@
   font-family: "Francois One", sans-serif;
 }
 .link:hover {
-  text-shadow: 3px 2px 2px rgb(24, 225, 24);
+  text-shadow: 3px 2px 2px rgb(15, 189, 233);
   transform: translateY(-10px);
 }
