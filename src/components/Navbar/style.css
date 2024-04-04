@@ -1,13 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Francois+One&display=swap");
 
 .navbar {
-  background-image: url("https://i.pinimg.com/564x/3a/a0/b4/3aa0b4236d8fba0d0e8aa303b3e6cc2f.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.938));
   height: 120px;
   background-position: center;
   filter: saturate(150%);
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: -4px 25px 31px -3px rgba(0, 0, 0, 0.76);
+  -moz-box-shadow: -4px 25px 31px -3px rgba(0, 0, 0, 0.76);
+  box-shadow: -4px 25px 31px -3px rgba(0, 0, 0, 0.76);
 }
 
 .link {

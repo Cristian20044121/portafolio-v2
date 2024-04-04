@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Francois+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap");
+
+.title-home {
+  font-family: "Francois One", sans-serif;
+  animation: resaltar 2s ease-in-out infinite;
+  color: black;
+}
+.image-profile {
+  filter: drop-shadow(26px 8px 10px #0597e1);
+}
+
+.image-profile:hover {
+  filter: saturate(150%);
+  transform: translateY(-10px);
+}
+/* Animación de resaltado */
+@keyframes resaltar {
+  0% {
+    text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+    background-color: transparent;
+  }
+  50% {
+    text-shadow: 2px 2px 20px rgb(0, 123, 160);
+    background-color: transparent;
+  }
+  100% {
+    text-shadow: 1px 1px 11px rgba(0, 0, 0, 0);
+    color: white;
+  }
+}
+.home-text {
+  font-family: "Aleo", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.home-sci {
+  display: flex;
+  justify-content: space-between;
+  gap: 7px;
+}
+.home-sci a {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 0.2rem solid #00ffff;
+  border-radius: 50%;
+  color: #00ffff;
+  z-index: 1;
+  overflow: hidden;
+  transition: 0.5s;
+}
+.home-sci a:hover {
+  color: black;
+  font-weight: bold;
+}
+.home-sci a::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #00ffff;
+  z-index: -1;
+  transition: 0.5s;
+}
+.home-sci a:hover::before {
+  width: 100%;
+}
