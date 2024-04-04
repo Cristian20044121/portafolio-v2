@@ -6,9 +6,7 @@ body {
   justify-content: center;
   align-items: flex-start;
   align-content: flex-start;
-  height: 50vw;
-  min-height: 500px;
-  max-height: 1000px;
+  height: 80vw;
   min-width: 300px;
   color: #eee;
 }
