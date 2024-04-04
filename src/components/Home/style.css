@@ -8,11 +8,23 @@
 }
 .image-profile {
   filter: drop-shadow(26px 8px 10px #0597e1);
+  animation: image 2s ease-in-out infinite;
 }
 
 .image-profile:hover {
   filter: saturate(150%);
   transform: translateY(-10px);
+}
+@keyframes image {
+  0% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
 }
 /* Animación de resaltado */
 @keyframes resaltar {
