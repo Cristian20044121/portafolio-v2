@@ -1,10 +1,23 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
+import { motion } from "framer-motion"; //libreria motion
 
 const Navbar = () => {
+  /**
+   * animacion libreria motion
+   */
+  const sectionVariants = {
+    hidden: { opacity: 0, y: 50 },
+    visible: { opacity: 1, y: 0, transition: { duraction: 0.5 } },
+  };
   return (
-    <div className="navbar flex justify-between items-center p-5">
+    <motion.div
+      className="navbar flex justify-between items-center p-5"
+      variants={sectionVariants}
+      initial="hidden"
+      animate="visible"
+    >
       <div
         className="text-white text-4xl hover:text-black transition duration-300 ease-in-out cursor-pointer
        link"
@@ -43,7 +56,7 @@ const Navbar = () => {
           Certificates
         </Link>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

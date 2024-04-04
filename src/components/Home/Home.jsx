@@ -1,9 +1,22 @@
 import React from "react";
 import photo from "../../img/icon-profile.png";
 import "./style.css";
+import { motion } from "framer-motion"; //libreria motion
 const Home = () => {
+  /**
+   * animacion libreria motion
+   */
+  const sectionVariants = {
+    hidden: { opacity: 0, y: 50 },
+    visible: { opacity: 1, y: 0, transition: { duraction: 0.9 } },
+  };
   return (
-    <div className="container-home">
+    <motion.div
+      className="container-home"
+      variants={sectionVariants}
+      initial="hidden"
+      animate="visible"
+    >
       <div className="flex items-center justify-around w-11/12 mx-auto mt-28">
         <div className="w-3/4">
           <h1 className="title-home text-8xl font-semibold text-cyan-500">
@@ -65,7 +78,7 @@ const Home = () => {
           />
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
