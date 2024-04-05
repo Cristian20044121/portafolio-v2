@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Francois+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&display=swap");
 
-.title-home {
+.title-first {
   font-family: "Francois One", sans-serif;
   animation: resaltar 2s ease-in-out infinite;
   color: black;

@@ -13,7 +13,7 @@ const Navbar = () => {
   };
   return (
     <motion.div
-      className="navbar flex justify-between items-center p-5"
+      className="navbar flex justify-between items-center p-5 opacity-95"
       variants={sectionVariants}
       initial="hidden"
       animate="visible"
