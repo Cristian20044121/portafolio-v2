@@ -19,7 +19,7 @@ const Home = () => {
     >
       <div className="flex items-center justify-around w-11/12 mx-auto mt-28">
         <div className="w-3/4">
-          <h1 className="title text-8xl font-semibold text-cyan-500">
+          <h1 className="title-first text-8xl font-semibold text-cyan-500">
             FULL STACK <span class="title-home-span">ENGINEER</span>
           </h1>
           <p className="home-text text-lg mt-10">
