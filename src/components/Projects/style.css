@@ -68,6 +68,7 @@ main {
   opacity: 1;
   display: none;
 
+
   & .title {
     font-family: "Francois One", sans-serif;
     animation: animation 2s ease-in-out infinite;
@@ -95,17 +96,19 @@ main {
 }
 .item:nth-of-type(2) .content {
   display: block;
-  animation: show 0.75s ease-in-out 0.3s forwards;
+  animation: float 2s ease-in-out infinite;
+
 }
 
-@keyframes show {
+@keyframes float {
   0% {
-    filter: blur(5px);
-    transform: translateY(calc(-50% + 75px));
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(10px);
   }
   100% {
-    opacity: 1;
-    filter: blur(0);
+    transform: translateY(-10px);
   }
 }
 

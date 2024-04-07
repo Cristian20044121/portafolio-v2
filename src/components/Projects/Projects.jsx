@@ -24,9 +24,9 @@ const Projects = () => {
                 "url('https://cdn.mos.cms.futurecdn.net/dP3N4qnEZ4tCTCLq59iysd.jpg')",
             }}
           >
-            <div className="content  bg-black bg-opacity-50 p-3">
-              <h2 className="title">Lossless Youths</h2>
-              <p className="description">
+            <div className="content  bg-black bg-opacity-50 p-4">
+              <h2 className="title font-bold text-2xl">Lossless Youths</h2>
+              <p className="description text-xl italic">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                 Tempore fuga voluptatum, iure corporis inventore praesentium
                 nisi. Id laboriosam ipsam enim.
