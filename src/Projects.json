@@ -3,102 +3,102 @@
     "id": "1",
     "name": "Interfaz-Fylo",
     "description": "Interface created with the Front challenge of the Frontend-Mentor website.",
-    "image": "src/img/img/projects/proyecto1.png"
+    "image": "img/img/projects/proyecto1.png"
   },
   {
     "id": "2",
     "name": "Page Video Games",
     "description": "Video game page made with front end technologies and javascript programming",
-    "image": "src/img/img/projects/proyecto2.png"
+    "image": "img/img/projects/proyecto2.png"
   },
   {
     "id": "3",
     "name": "Frontend Mentor - NFT preview card component",
     "description": "Card realizated with page Frontend mentor",
-    "image": "src/img/img/projects/proyecto3.png"
+    "image": "img/img/projects/proyecto3.png"
   },
   {
     "id": "4",
     "name": "QR code card",
     "description": "QR code card, challenge carried out from the Frontend-mentor page",
-    "image": "src/img/img/projects/proyecto4.PNG"
+    "image": "img/img/projects/proyecto4.PNG"
   },
   {
     "id": "5",
     "name": "CRUD of category",
     "description": "Category CRUD, allows you to add, edit and delete a category of a product.",
-    "image": "src/img/img/projects/proyecto5.PNG"
+    "image": "img/img/projects/proyecto5.PNG"
   },
   {
     "id": "6",
     "name": "Clipboard-landing-page-master",
     "description": "Landing page made from Frontend-mentor page with responsive view.",
-    "image": "src/img/img/projects/proyecto6.PNG"
+    "image": "img/img/projects/proyecto6.PNG"
   },
   {
     "id": "7",
     "name": "API Rick And Morty",
     "description": "Page that consumes Rick and Morty API allowing the consultation of data such as characters, places and episodes.",
-    "image": "src/img/img/projects/proyecto7.PNG"
+    "image": "img/img/projects/proyecto7.PNG"
   },
   {
     "id": "8",
     "name": "Car Rental Page",
     "description": "Car rental page with simple interface and JSON consumption.",
-    "image": "src/img/img/projects/proyecto8.PNG"
+    "image": "img/img/projects/proyecto8.PNG"
   },
   {
     "id": "9",
     "name": "Accordeon Card",
     "description": "accordion card, extracted from the Frontend-mentor page.",
-    "image": "src/img/img/projects/proyecto9.PNG"
+    "image": "img/img/projects/proyecto9.PNG"
   },
   {
     "id": "10",
     "name": "Calculator",
     "description": "calculator made with javascript programming and basic mathematical operations.",
-    "image": "src/img/img/projects/proyecto10.PNG"
+    "image": "img/img/projects/proyecto10.PNG"
   },
   {
     "id": "11",
     "name": "Task App",
     "description": "task application made with javascript and node js, with functionality from the command terminal.",
-    "image": "src/img/img/projects/proyecto11.PNG"
+    "image": "img/img/projects/proyecto11.PNG"
   },
   {
     "id": "12",
     "name": "Purchase form",
     "description": "Purchase form made in the Java programming language.",
-    "image": "src/img/img/projects/proyecto12.PNG"
+    "image": "img/img/projects/proyecto12.PNG"
   },
   {
     "id": "13",
     "name": "Hours, Minutes And Seconds Calculator",
     "description": "Hour, minute and second calculator, made in the Java programming language.",
-    "image": "src/img/img/projects/proyecto13.PNG"
+    "image": "img/img/projects/proyecto13.PNG"
   },
   {
     "id": "14",
     "name": "Triangle Calculator In Java",
     "description": "Triangle calculator in Java with area and perimeter that defines the type of triangle.",
-    "image": "src/img/img/projects/proyecto14.PNG"
+    "image": "img/img/projects/proyecto14.PNG"
   },
   {
     "id": "15",
     "name": "Average Calculator",
     "description": "Calculate the average using mathematical operations.",
-    "image": "src/img/img/projects/proyecto15.PNG"
+    "image": "img/img/projects/proyecto15.PNG"
   },
   {
     "id": "16",
     "name": "Bootcamp Full Stack Engineer Integrator Project",
     "description": "Toy store that allows you to add, edit and delete products, using a non-relational database.",
-    "image": "src/img/img/projects/proyecto16.PNG"
+    "image": "img/img/projects/proyecto16.PNG"
   },
   {
     "id": "17",
     "name": "Front End MasterPc",
     "description": "The MasterPC frontend is a React application designed to provide an online shopping experience for technology products. It communicates with the MasterPC API to obtain and display information about available products.",
-    "image": "src/img/img/projects/proyecto17.PNG"
+    "image": "img/img/projects/proyecto17.PNG"
   }
 ]

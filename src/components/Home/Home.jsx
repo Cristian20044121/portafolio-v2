@@ -1,5 +1,6 @@
 import React from "react";
-import photo from "../../img/icon-profile.png";
+import photo from "../../icon-profile.png";
+
 import "./style.css";
 import { motion } from "framer-motion"; //libreria motion
 const Home = () => {
