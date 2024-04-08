@@ -13,7 +13,7 @@ const Home = () => {
   };
   return (
     <motion.div
-      className="container-home"
+      className="container-home body"
       variants={sectionVariants}
       initial="hidden"
       animate="visible"

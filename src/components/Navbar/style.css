@@ -2,19 +2,20 @@
 
 .navbar {
   width: 100%;
-  background: linear-gcradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.938));
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://images.unsplash.com/photo-1670901391503-f6a80a0d91a6?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
   height: 120px;
   z-index: 100;
   position: relative;
-  background-position: center;
+  background-position: left top;
   filter: saturate(150%);
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-box-shadow: -4px 25px 31px -3px rgba(0, 0, 0, 0.76);
-  -moz-box-shadow: -4px 25px 31px -3px rgba(0, 0, 0, 0.76);
+  -webkit-box-shadow: -11px 28px 35px 5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -11px 28px 35px 5px rgba(0, 0, 0, 0.75);
+  box-shadow: -11px 28px 35px 5px rgba(0, 0, 0, 0.75);
   box-shadow: -4px 25px 31px -3px rgba(0, 0, 0, 0.76);
 }
-
 .link {
   font-family: "Francois One", sans-serif;
 }

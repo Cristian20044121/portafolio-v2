@@ -22,7 +22,7 @@ const Projects = () => {
   }
 
   return (
-    <main>
+    <main className="body">
       <ul ref={sliderRef} className="slider">
         {projects.map((project) => (
           <li
