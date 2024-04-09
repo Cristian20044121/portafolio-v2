@@ -31,12 +31,7 @@ const Navbar = () => {
         >
           Home
         </Link>
-        <Link
-          to={"/about"}
-          className="ml-5 text-2xl text-white hover:text-black transition duration-300 ease-in-out cursor-pointer link"
-        >
-          About
-        </Link>
+
         <Link
           to={"/education"}
           className="ml-5 text-2xl text-white hover:text-black transition duration-300 ease-in-out cursor-pointer link"
