@@ -87,3 +87,13 @@
 .div12 {
   grid-area: 12 / 1 / 13 / 2;
 }
+.animation {
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+.animation.active {
+  transform: translateY(0);
+  opacity: 1;
+}
