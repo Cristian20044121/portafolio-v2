@@ -4,7 +4,6 @@ import Navbar from "./components/Navbar/Navbar";
 import Home from "./components/Home/Home";
 import Education from "./components/Education/Education";
 import Projects from "./components/Projects/Projects";
-import Certificates from "./components/Certificates/Certificates";
 
 function App() {
   return (
@@ -15,7 +14,6 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route exact path="/education" element={<Education />} />
           <Route exact path="/projects" element={<Projects />} />
-          <Route exact path="/certificates" element={<Certificates />} />
         </Routes>
       </Router>
     </>

@@ -44,12 +44,6 @@ const Navbar = () => {
         >
           Projects
         </Link>
-        <Link
-          to={"/certificates"}
-          className="ml-5 text-2xl text-white hover:text-black transition duration-300 ease-in-out link"
-        >
-          Certificates
-        </Link>
       </div>
     </motion.div>
   );
