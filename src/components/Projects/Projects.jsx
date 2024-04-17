@@ -35,7 +35,14 @@ const Projects = () => {
                 {project.name}
               </h2>
               <p className="description">{project.description}</p>
-              <button className="button-read">Read More</button>
+              <a
+                className=" p-1 mt-2 rounded button-read cursor-pointer"
+                target="_blank"
+                rel="noopener noreferrer"
+                href={project.link}
+              >
+                READ MORE
+              </a>
             </div>
           </li>
         ))}

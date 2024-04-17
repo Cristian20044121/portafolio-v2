@@ -3,102 +3,119 @@
     "id": "1",
     "name": "Interfaz-Fylo",
     "description": "Interface created with the Front challenge of the Frontend-Mentor website.",
-    "image": "img/img/projects/proyecto1.png"
+    "image": "img/img/projects/proyecto1.png",
+    "link": "https://github.com/Cristian20044121/Interfaz-Fylo.github.io"
   },
   {
     "id": "2",
     "name": "Page Video Games",
     "description": "Video game page made with front end technologies and javascript programming",
-    "image": "img/img/projects/proyecto2.png"
+    "image": "img/img/projects/proyecto2.png",
+    "link": "https://github.com/Cristian20044121/pagina-videjuegos"
   },
   {
     "id": "3",
     "name": "Frontend Mentor - NFT preview card component",
     "description": "Card realizated with page Frontend mentor",
-    "image": "img/img/projects/proyecto3.png"
+    "image": "img/img/projects/proyecto3.png",
+    "link": "https://github.com/Cristian20044121/card-reto-frontend_mentor"
   },
   {
     "id": "4",
     "name": "QR code card",
     "description": "QR code card, challenge carried out from the Frontend-mentor page",
-    "image": "img/img/projects/proyecto4.PNG"
+    "image": "img/img/projects/proyecto4.PNG",
+    "link": "https://github.com/Cristian20044121/Card-codigo-qr"
   },
   {
     "id": "5",
     "name": "CRUD of category",
     "description": "Category CRUD, allows you to add, edit and delete a category of a product.",
-    "image": "img/img/projects/proyecto5.PNG"
+    "image": "img/img/projects/proyecto5.PNG",
+    "link": "https://github.com/Cristian20044121/vista-categoria"
   },
   {
     "id": "6",
     "name": "Clipboard-landing-page-master",
     "description": "Landing page made from Frontend-mentor page with responsive view.",
-    "image": "img/img/projects/proyecto6.PNG"
+    "image": "img/img/projects/proyecto6.PNG",
+    "link": "https://github.com/Cristian20044121/clipboard-landing-page-master"
   },
   {
     "id": "7",
     "name": "API Rick And Morty",
     "description": "Page that consumes Rick and Morty API allowing the consultation of data such as characters, places and episodes.",
-    "image": "img/img/projects/proyecto7.PNG"
+    "image": "img/img/projects/proyecto7.PNG",
+    "link": "https://github.com/Cristian20044121/API-Rick-and-morty"
   },
   {
     "id": "8",
     "name": "Car Rental Page",
     "description": "Car rental page with simple interface and JSON consumption.",
-    "image": "img/img/projects/proyecto8.PNG"
+    "image": "img/img/projects/proyecto8.PNG",
+    "link": "https://github.com/Cristian20044121/Renta-de-autos"
   },
   {
     "id": "9",
     "name": "Accordeon Card",
     "description": "accordion card, extracted from the Frontend-mentor page.",
-    "image": "img/img/projects/proyecto9.PNG"
+    "image": "img/img/projects/proyecto9.PNG",
+    "link": "https://github.com/Cristian20044121/accordeon-frontend-mentor"
   },
   {
     "id": "10",
     "name": "Calculator",
     "description": "calculator made with javascript programming and basic mathematical operations.",
-    "image": "img/img/projects/proyecto10.PNG"
+    "image": "img/img/projects/proyecto10.PNG",
+    "link": "https://github.com/Cristian20044121/calculadora"
   },
   {
     "id": "11",
     "name": "Task App",
     "description": "task application made with javascript and node js, with functionality from the command terminal.",
-    "image": "img/img/projects/proyecto11.PNG"
+    "image": "img/img/projects/proyecto11.PNG",
+    "link": "https://github.com/Cristian20044121/aplicacion-tareas"
   },
   {
     "id": "12",
     "name": "Purchase form",
     "description": "Purchase form made in the Java programming language.",
-    "image": "img/img/projects/proyecto12.PNG"
+    "image": "img/img/projects/proyecto12.PNG",
+    "link": "https://github.com/Cristian20044121/formulario-compra-Java"
   },
   {
     "id": "13",
     "name": "Hours, Minutes And Seconds Calculator",
     "description": "Hour, minute and second calculator, made in the Java programming language.",
-    "image": "img/img/projects/proyecto13.PNG"
+    "image": "img/img/projects/proyecto13.PNG",
+    "link": "https://github.com/Cristian20044121/calculador-horas-minuto-segundo"
   },
   {
     "id": "14",
     "name": "Triangle Calculator In Java",
     "description": "Triangle calculator in Java with area and perimeter that defines the type of triangle.",
-    "image": "img/img/projects/proyecto14.PNG"
+    "image": "img/img/projects/proyecto14.PNG",
+    "link": "https://github.com/Cristian20044121/calculadora-triangulos"
   },
   {
     "id": "15",
     "name": "Average Calculator",
     "description": "Calculate the average using mathematical operations.",
-    "image": "img/img/projects/proyecto15.PNG"
+    "image": "img/img/projects/proyecto15.PNG",
+    "link": "https://github.com/Cristian20044121/calculadora-promedio"
   },
   {
     "id": "16",
     "name": "Bootcamp Full Stack Engineer Integrator Project",
     "description": "Toy store that allows you to add, edit and delete products, using a non-relational database.",
-    "image": "img/img/projects/proyecto16.PNG"
+    "image": "img/img/projects/proyecto16.PNG",
+    "link": "https://github.com/Cristian20044121/proyecto-integrador"
   },
   {
     "id": "17",
     "name": "Front End MasterPc",
     "description": "The MasterPC frontend is a React application designed to provide an online shopping experience for technology products. It communicates with the MasterPC API to obtain and display information about available products.",
-    "image": "img/img/projects/proyecto17.PNG"
+    "image": "img/img/projects/proyecto17.PNG",
+    "link": "https://github.com/Cristian20044121/Master-Pc"
   }
 ]
