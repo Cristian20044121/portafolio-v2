@@ -13,12 +13,12 @@ const Education = () => {
   };
   return (
     <motion.div
-      className="body-education"
+      className="body-education p-10"
       variants={sectionVariants}
       initial="hidden"
       animate="visible"
     >
-      <div className="mx-auto mt-20 w-2/3 text-center">
+      <div className="mx-auto mt-2 w-2/3 text-center">
         <h1 className="max-w-2xl text-4xl font-bold tracking-tight text-white sm:text-6xl lg:col-span-2 xl:col-auto mx-auto">
           EDUCATION
         </h1>
@@ -29,15 +29,19 @@ const Education = () => {
           programs, I have explored a wide range of technologies and
           disciplines.
         </p>
-        <div className="mt-28 grid grid-rows-4 grid-flow-col flex-wrap">
+        <div className="mt-10 grid grid-rows-4 grid-flow-col flex-wrap">
           <div class="parent">
             <div class="div1  bg-white bg-opacity-50 p-1 md:p-8 md:ml-12 md:w-6/12 lg:w-50 md:shadow-lg cursor-pointer animation">
               <h2 className="text-4xl font-bold italic">2022</h2> <br />
               <p className="font-semibold text-2xl text-gray-700 mb-3">
                 DISEÑO WEB CON ADOBE DREAMWEAVER
               </p>
-              <a className="button-read-education p-1 mt-2 rounded" target="_blank"
-              rel="noopener noreferrer" href="https://drive.google.com/file/d/1BCPttnUaqC-l5iKyuegAcxYt1mJTZsty/view?usp=sharing">
+              <a
+                className="button-read-education p-1 mt-2 rounded"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://drive.google.com/file/d/1BCPttnUaqC-l5iKyuegAcxYt1mJTZsty/view?usp=sharing"
+              >
                 Read More
               </a>
               <AnimationScroll />
@@ -48,8 +52,12 @@ const Education = () => {
               <p className="font-semibold text-2xl text-gray-700 mb-3">
                 CURSO PROFESIONAL DE JAVASCRIPT
               </p>
-              <a className="button-read-education p-1 mt-2 rounded" target="_blank"
-              rel="noopener noreferrer" href="https://drive.google.com/file/d/1OVq_nCjSY7RXwsaaGElezwv4RXi38K8Z/view?usp=sharing">
+              <a
+                className="button-read-education p-1 mt-2 rounded"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://drive.google.com/file/d/1OVq_nCjSY7RXwsaaGElezwv4RXi38K8Z/view?usp=sharing"
+              >
                 Read More
               </a>
               <AnimationScroll />
@@ -61,32 +69,29 @@ const Education = () => {
                 VARIABLES Y ESTRUCTURAS DE CONTROL EN LA PROGRAMACION ORIENTADA
                 A OBJETOS: JAVA
               </p>{" "}
-              <a className="button-read-education p-1 mt-2 rounded" target="_blank"
-              rel="noopener noreferrer" href="https://drive.google.com/file/d/1PY4E7GiqLBRAvxmjL-rrXIiUEq_PV1n2/view?usp=sharing">
+              <a
+                className="button-read-education p-1 mt-2 rounded"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://drive.google.com/file/d/1PY4E7GiqLBRAvxmjL-rrXIiUEq_PV1n2/view?usp=sharing"
+              >
                 Read More
               </a>
               <AnimationScroll />
             </div>
-            <div class="div4 bg-white bg-opacity-50 p-1 md:p-8 md:ml-12 md:w-6/12 lg:w-50 md:shadow-lg cursor-pointer animation">
-              {" "}
-              <h2 className="text-4xl font-bold italic">2023</h2> <br />
-              <p className="font-semibold text-2xl text-gray-700 mb-3">
-                ANALISIS PARA EL DESARROLLO MOVIL CON APP INVENTOR{" "}
-              </p>
-              <a className="button-read-education p-1 mt-2 rounded" target="_blank"
-              rel="noopener noreferrer" href="https://drive.google.com/file/d/1PY4E7GiqLBRAvxmjL-rrXIiUEq_PV1n2/view?usp=sharing">
-                Read More
-              </a>
-              <AnimationScroll />
-            </div>
+
             <div class="div5 bg-white bg-opacity-50 p-1 md:p-8 md:ml-12 md:w-6/12 lg:w-50 md:shadow-lg cursor-pointer animation">
               {" "}
               <h2 className="text-4xl font-bold italic">2022-2023</h2> <br />
               <p className="font-semibold text-2xl text-gray-700 mb-3">
                 Educación IT - Bootcamp Full Stack Engineer
               </p>
-              <a className="button-read-education p-1 mt-2 rounded" target="_blank"
-              rel="noopener noreferrer" href="https://drive.google.com/file/d/1wQ4iEMrGaXDttp9WlWdEakkDCZdOacAg/view?usp=sharing">
+              <a
+                className="button-read-education p-1 mt-2 rounded"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://drive.google.com/file/d/1wQ4iEMrGaXDttp9WlWdEakkDCZdOacAg/view?usp=sharing"
+              >
                 Read More
               </a>
               <AnimationScroll />
@@ -97,8 +102,12 @@ const Education = () => {
               <p className="font-semibold text-2xl text-gray-700 mb-3">
                 CONCEPTOS DE PYTHON PARA BACKEND - BOOTCAMP BACKEND CON PYTHON
               </p>
-              <a className="button-read-education p-1 mt-2 rounded" target="_blank"
-              rel="noopener noreferrer" href="https://drive.google.com/file/d/1C_4bmDq-6yNAHIdxDEk20f56mQgNWxBg/view?usp=sharing">
+              <a
+                className="button-read-education p-1 mt-2 rounded"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://drive.google.com/file/d/1C_4bmDq-6yNAHIdxDEk20f56mQgNWxBg/view?usp=sharing"
+              >
                 Read More
               </a>
               <AnimationScroll />
@@ -109,8 +118,12 @@ const Education = () => {
               <p className="font-semibold text-2xl text-gray-700 mb-3">
                 IMPLEMENTACION DE BASES DE DATOS NOSQL
               </p>
-              <a className="button-read-education p-1 mt-2 rounded" target="_blank"
-              rel="noopener noreferrer" href="https://drive.google.com/file/d/12isH4ki2rq6YlLsZY9EheyLsz0V5C88o/view?usp=sharing">
+              <a
+                className="button-read-education p-1 mt-2 rounded"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://drive.google.com/file/d/12isH4ki2rq6YlLsZY9EheyLsz0V5C88o/view?usp=sharing"
+              >
                 Read More
               </a>
               <AnimationScroll />
@@ -132,8 +145,12 @@ const Education = () => {
               <p className="font-semibold text-2xl text-gray-700 mb-3">
                 CONSTRUCCION DE BASES DE DATOS CON MYSQL
               </p>
-              <a className="button-read-education p-1 mt-2 rounded" target="_blank"
-              rel="noopener noreferrer" href="hhttps://drive.google.com/file/d/17hrC_UtaGKNR_oKD5Lrp1KJnpzQNiw93/view?usp=sharing">
+              <a
+                className="button-read-education p-1 mt-2 rounded"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="hhttps://drive.google.com/file/d/17hrC_UtaGKNR_oKD5Lrp1KJnpzQNiw93/view?usp=sharing"
+              >
                 Read More
               </a>
               <AnimationScroll />
@@ -145,8 +162,12 @@ const Education = () => {
                 APLICACION DEL MARCO DE TRABAJO SCRUM PARA PROYECTOS DE
                 DESARROLLO DE SOFTWARE
               </p>{" "}
-              <a className="button-read-education p-1 mt-2 rounded" target="_blank"
-              rel="noopener noreferrer" href="https://drive.google.com/file/d/1Vd1j4OP4H5vF4QFGXzReqZ3Q6e7VdHeL/view?usp=sharing">
+              <a
+                className="button-read-education p-1 mt-2 rounded"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://drive.google.com/file/d/1Vd1j4OP4H5vF4QFGXzReqZ3Q6e7VdHeL/view?usp=sharing"
+              >
                 Read More
               </a>
               <AnimationScroll />
@@ -157,20 +178,12 @@ const Education = () => {
               <p className="font-semibold text-2xl text-gray-700 mb-3">
                 CURSO CSS
               </p>{" "}
-              <a className="button-read-education p-1 mt-2 rounded" target="_blank"
-              rel="noopener noreferrer" href="https://drive.google.com/file/d/15ytyOUHHc7S2eg4vLz7l0sYFgI6YNPBH/view?usp=sharing">
-                Read More
-              </a>
-              <AnimationScroll />
-            </div>
-            <div class="div12 bg-white bg-opacity-50 p-1 md:p-8 md:ml-12 md:w-6/12 lg:w-50 md:shadow-lg cursor-pointer animation">
-              {" "}
-              <h2 className="text-4xl font-bold italic">2023</h2> <br />
-              <p className="font-semibold text-2xl text-gray-700 mb-3">
-                Introducción a UX
-              </p>
-              <a className="button-read-education p-1 mt-2 rounded" target="_blank"
-              rel="noopener noreferrer" href="https://drive.google.com/file/d/1dAGVwU5y7GmfmQvTdS5nDMWHjsKl_Ljz/view?usp=sharing">
+              <a
+                className="button-read-education p-1 mt-2 rounded"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://drive.google.com/file/d/15ytyOUHHc7S2eg4vLz7l0sYFgI6YNPBH/view?usp=sharing"
+              >
                 Read More
               </a>
               <AnimationScroll />
