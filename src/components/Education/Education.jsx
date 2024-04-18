@@ -29,7 +29,7 @@ const Education = () => {
           programs, I have explored a wide range of technologies and
           disciplines.
         </p>
-        <div className="mt-10 grid grid-rows-4 grid-flow-col flex-wrap">
+        <div className="mt-20 grid grid-rows-4 grid-flow-col flex-wrap">
           <div class="parent">
             <div class="div1  bg-white bg-opacity-50 p-1 md:p-8 md:ml-12 md:w-6/12 lg:w-50 md:shadow-lg cursor-pointer animation">
               <h2 className="text-4xl font-bold italic">2022</h2> <br />
@@ -57,23 +57,6 @@ const Education = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://drive.google.com/file/d/1OVq_nCjSY7RXwsaaGElezwv4RXi38K8Z/view?usp=sharing"
-              >
-                Read More
-              </a>
-              <AnimationScroll />
-            </div>
-            <div class="div3 bg-white bg-opacity-50 p-1 md:p-8 md:ml-12 md:w-6/12 lg:w-50 md:shadow-lg cursor-pointer animation">
-              {" "}
-              <h2 className="text-4xl font-bold italic">2023</h2> <br />
-              <p className="font-semibold text-2xl text-gray-700 mb-3">
-                VARIABLES Y ESTRUCTURAS DE CONTROL EN LA PROGRAMACION ORIENTADA
-                A OBJETOS: JAVA
-              </p>{" "}
-              <a
-                className="button-read-education p-1 mt-2 rounded"
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://drive.google.com/file/d/1PY4E7GiqLBRAvxmjL-rrXIiUEq_PV1n2/view?usp=sharing"
               >
                 Read More
               </a>
