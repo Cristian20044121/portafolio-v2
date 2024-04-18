@@ -54,3 +54,31 @@
 nav {
   margin-bottom: 100px;
 }
+@media screen and (max-width: 1000px) and (min-width: 1100px) {
+  .body {
+    overflow: initial;
+    height: 5000px;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 999px) and (min-width: 700px) {
+  .body {
+    overflow: hidden;
+    height: 110vh;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 699px) and (min-width: 500px) {
+  .body {
+    overflow: hidden;
+    height: 110vh;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 599px) and (min-width: 200px) {
+  .body {
+    overflow: hidden;
+    height: 110vh;
+    width: 100%;
+  }
+}

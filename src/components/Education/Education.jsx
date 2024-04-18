@@ -18,12 +18,12 @@ const Education = () => {
       initial="hidden"
       animate="visible"
     >
-      <div className="mx-auto mt-2 w-2/3 text-center">
+      <div className="lg:mx-auto md:mx-auto sm:mr-20 mt-2 w-2/3 text-center">
         <h1 className="max-w-2xl text-4xl font-bold tracking-tight text-white sm:text-6xl lg:col-span-2 xl:col-auto mx-auto">
           EDUCATION
         </h1>
         <br />
-        <p className="text-lg leading-8 text-white w-6/12 mx-auto">
+        <p className="text-lg leading-8 text-white   mx-auto">
           This section represents my educational journey, where I have
           cultivated and expanded my knowledge over time. Through various study
           programs, I have explored a wide range of technologies and
@@ -31,7 +31,7 @@ const Education = () => {
         </p>
         <div className="mt-20 grid grid-rows-4 grid-flow-col flex-wrap">
           <div class="parent">
-            <div class="div1  bg-white bg-opacity-50 p-1 md:p-8 md:ml-12 md:w-6/12 lg:w-50 md:shadow-lg cursor-pointer animation">
+            <div class="div1  bg-white bg-opacity-50 p-1 md:p-8 md:ml-12 md:w-5/6 lg:w-50 md:shadow-lg cursor-pointer animation">
               <h2 className="text-4xl font-bold italic">2022</h2> <br />
               <p className="font-semibold text-2xl text-gray-700 mb-3">
                 DISEÑO WEB CON ADOBE DREAMWEAVER
@@ -46,7 +46,7 @@ const Education = () => {
               </a>
               <AnimationScroll />
             </div>
-            <div class="div2 bg-white bg-opacity-50 p-1 md:p-8 md:ml-12 md:w-6/12 lg:w-50 md:shadow-lg cursor-pointer animation">
+            <div class="div2 bg-white bg-opacity-50 p-1 md:p-8 md:ml-12 md:w-5/6 lg:w-50 md:shadow-lg cursor-pointer animation">
               {" "}
               <h2 className="text-4xl font-bold italic">2022</h2> <br />
               <p className="font-semibold text-2xl text-gray-700 mb-3">
@@ -63,7 +63,7 @@ const Education = () => {
               <AnimationScroll />
             </div>
 
-            <div class="div5 bg-white bg-opacity-50 p-1 md:p-8 md:ml-12 md:w-6/12 lg:w-50 md:shadow-lg cursor-pointer animation">
+            <div class="div5 bg-white bg-opacity-50 p-1 md:p-8 md:ml-12 md:w-5/6 lg:w-50 md:shadow-lg cursor-pointer animation">
               {" "}
               <h2 className="text-4xl font-bold italic">2022-2023</h2> <br />
               <p className="font-semibold text-2xl text-gray-700 mb-3">
@@ -79,7 +79,7 @@ const Education = () => {
               </a>
               <AnimationScroll />
             </div>
-            <div class="div6 bg-white bg-opacity-50 p-1 md:p-8 md:ml-12 md:w-6/12 lg:w-50 md:shadow-lg cursor-pointer animation">
+            <div class="div6 bg-white bg-opacity-50 p-1 md:p-8 md:ml-12 md:w-5/6 lg:w-50 md:shadow-lg cursor-pointer animation">
               {" "}
               <h2 className="text-4xl font-bold italic">2023</h2> <br />
               <p className="font-semibold text-2xl text-gray-700 mb-3">
@@ -95,7 +95,7 @@ const Education = () => {
               </a>
               <AnimationScroll />
             </div>
-            <div class="div7 bg-white bg-opacity-50 p-1 md:p-8 md:ml-12 md:w-6/12 lg:w-50 md:shadow-lg cursor-pointer animation">
+            <div class="div7 bg-white bg-opacity-50 p-1 md:p-8 md:ml-12 md:w-5/6 lg:w-50 md:shadow-lg cursor-pointer animation">
               {" "}
               <h2 className="text-4xl font-bold italic">2023</h2> <br />
               <p className="font-semibold text-2xl text-gray-700 mb-3">
@@ -111,7 +111,7 @@ const Education = () => {
               </a>
               <AnimationScroll />
             </div>
-            <div class="div8 bg-white bg-opacity-50 p-1 md:p-8 md:ml-12 md:w-6/12 lg:w-50 md:shadow-lg cursor-pointer animation">
+            <div class="div8 bg-white bg-opacity-50 p-1 md:p-8 md:ml-12 md:w-5/6 lg:w-50 md:shadow-lg cursor-pointer animation">
               {" "}
               <h2 className="text-4xl font-bold italic">2023-2024</h2> <br />
               <p className="font-semibold text-2xl text-gray-700 mb-3">
@@ -122,7 +122,7 @@ const Education = () => {
               </button>
               <AnimationScroll />
             </div>
-            <div class="div9 bg-white bg-opacity-50 p-1 md:p-8 md:ml-12 md:w-6/12 lg:w-50 md:shadow-lg cursor-pointer animation">
+            <div class="div9 bg-white bg-opacity-50 p-1 md:p-8 md:ml-12 md:w-5/6 lg:w-50 md:shadow-lg cursor-pointer animation">
               {" "}
               <h2 className="text-4xl font-bold italic">2023</h2> <br />
               <p className="font-semibold text-2xl text-gray-700 mb-3">
@@ -138,7 +138,7 @@ const Education = () => {
               </a>
               <AnimationScroll />
             </div>
-            <div class="div10 bg-white bg-opacity-50 p-1 md:p-8 md:ml-12 md:w-6/12 lg:w-50 md:shadow-lg cursor-pointer animation">
+            <div class="div10 bg-white bg-opacity-50 p-1 md:p-8 md:ml-12 md:w-5/6 lg:w-50 md:shadow-lg cursor-pointer animation">
               {" "}
               <h2 className="text-4xl font-bold italic">2023</h2> <br />
               <p className="font-semibold text-2xl text-gray-700 mb-3">
@@ -155,7 +155,7 @@ const Education = () => {
               </a>
               <AnimationScroll />
             </div>
-            <div class="div11 bg-white bg-opacity-50 p-1 md:p-8 md:ml-12 md:w-6/12 lg:w-50 md:shadow-lg cursor-pointer animation">
+            <div class="div11 bg-white bg-opacity-50 p-1 md:p-8 md:ml-12 md:w-5/6 lg:w-50 md:shadow-lg cursor-pointer animation">
               {" "}
               <h2 className="text-4xl font-bold italic">2023</h2> <br />
               <p className="font-semibold text-2xl text-gray-700 mb-3">

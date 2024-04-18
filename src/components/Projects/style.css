@@ -9,7 +9,7 @@ main {
 
 .item {
   width: 200px;
-  height: 300px;
+  height: 20px;
   list-style-type: none;
   position: absolute;
   top: 50%;
@@ -185,35 +185,21 @@ main {
     }
   }
 }
-
-@media (width < 650px) {
+@media (max-width: 650px) {
   .content {
-    & .title {
-      font-size: 0.9rem;
-    }
-    & .description {
-      font-size: 0.65rem;
-    }
-    & button {
-      font-size: 0.7rem;
-    }
+    padding: 20px;
+    margin-top: 80px;
+    width: 90%; /* Cambié el ancho para que ocupe más espacio en pantallas pequeñas */
+    left: 5%; /* Alineo el contenido al centro */
   }
   .item {
-    width: 130px;
-    height: 220px;
-
-    &:nth-child(3) {
-      left: 50%;
-    }
-    &:nth-child(4) {
-      left: calc(50% + 140px);
-    }
-    &:nth-child(5) {
-      left: calc(50% + 280px);
-    }
-    &:nth-child(6) {
-      left: calc(50% + 420px);
-      opacity: 0;
-    }
+    width: 100%; /* Hago que los ítems ocupen todo el ancho disponible */
+    height: auto; /* Permito que la altura se ajuste automáticamente */
+    overflow: hidden; /* Oculto cualquier contenido que se desborde */
+  }
+  /* Modifiqué los estilos del botón para que se ajusten mejor en pantallas pequeñas */
+  .content .button-read {
+    padding: 10px; /* Aumenté el espacio interno */
+    font-size: 0.75rem; /* Reduje el tamaño de fuente */
   }
 }
